@@ -9,8 +9,9 @@
 * pgadmin3
 
 ## usage
-Make sure you have already opened the database in question in pgadmin3 with the user required by
+* Make sure you have already opened the database in question in pgadmin3 with the user required by
 your queries, or save your password in a .pgpass file so your user role has access.
+* You can fill in default params as constants so you only need to hit enter at the gdialog when it runs
 
 1. use from file explorer (example using nemo file explorer on ubuntu)
   * right-click on .sql file in file explorer

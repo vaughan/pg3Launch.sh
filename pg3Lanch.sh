@@ -6,10 +6,10 @@
 # - xdotool sends an F5 key to the pgadmin3 application to launch the query instantly
 
 SQL_FILE=$1
-HOST="dhpr-dev2"
+HOST="my_host"
 PORT="5432"
-DBNAME="dhpr-dev2"
-ROLE="vaughan"
+DBNAME="my_db"
+ROLE="user"
 
 params=($( \
   gdialog --title "Run SQL with params" \
